@@ -1,0 +1,5 @@
+<div>
+    <select (change)="reload()" [(ngModel)]="chosen">
+        <option *ngFor="let obj of dataObjectInput" [ngValue]="obj">{{obj.id}}</option>
+    </select>
+</div>
