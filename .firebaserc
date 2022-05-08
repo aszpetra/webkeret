@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "webfejl-aram": {
+      "hosting": {
+        "project": [
+          "webfejl-aram"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "webfejl-aram"
+  }
+}
